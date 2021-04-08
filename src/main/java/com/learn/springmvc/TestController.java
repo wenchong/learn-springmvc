@@ -12,6 +12,7 @@ import java.io.IOException;
 @MyRequestMapping("/test")
 public class TestController {
 
+    //http://localhost:8080/coshaho/test/doTest?param=aaa
     @MyRequestMapping("/doTest")
     public void test1(HttpServletRequest request, HttpServletResponse response,
                       @MyRequestParam("param") String param){
