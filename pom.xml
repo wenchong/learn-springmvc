@@ -37,7 +37,7 @@
                         <port>8080</port>
                     </httpConnector>
                     <webApp>
-                        <contextPath>/coshaho</contextPath>
+                        <contextPath>/wenchong</contextPath>
                     </webApp>
                 </configuration>
             </plugin>
